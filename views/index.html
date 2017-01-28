@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+    <div class="vertical-container">
+        <div class="vertical-align text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div id="start-section">
+                            <h1 class="display-4">Sentimental Analysis</h1>
+                            <p class="lead">Is your project doing good or bad, find out now!</p>
+                            <form id="form">
+                                <table class="wrap-form">
+                                    <tbody>
+                                    <tr>
+                                        <td><input type="text" class="form-control" id="input-form" placeholder="enter a git repo url.."></td>
+                                        <td><button class="btn btn-large btn-primary" id="submit">Check</button></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </form>
+                        </div>
+                        <div id="end-section" style="display: none">
+                            <h1 class="display-4">Here is the analysis...</h1>
+                            <p class="lead">Want to sentiment another repo? <a href="" id="reset">Click Here</a></p>
+                            <div class="results"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascripts/jquery-3.1.1.min.js"></script>
+    <script src="javascripts/script.js"></script>
+</body>
+</html>

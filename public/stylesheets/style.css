@@ -1,0 +1,34 @@
+html, body, .vertical-container{
+  height: 100%;
+  width: 100%;
+}
+
+.vertical-container{
+  display: table;
+}
+
+.vertical-align{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.wrap-form{
+  margin: 0 auto;
+}
+
+.wrap-form td{
+  padding: 0 3px;
+}
+
+body{
+  -webkit-transition: all 0.8s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+  transition: all 0.8s ease-out;  /* Chrome 26, Firefox 16+, iOS 7+, IE 10+, Opera, Safari 6.1+  */
+}
+
+body.red{
+  background-color: #ff8d6e;
+}
+
+body.green{
+  background-color: #2CEEA9;
+}
